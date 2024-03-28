@@ -1,9 +1,9 @@
-<h1> Cyber Punk Blogging Ring </h1>
+<h1 class = "title"> <%= content_tag :div, "Cyber Punk Blogging Ring", class: "text-glow" %> </h1>
 <ul>
 <% @blogs.each do|blog| %>
-<li> <%= link_to blog.title, blog_path(blog) %> </li>
+<li class = "text-glow"> <%= link_to blog.title, blog_path(blog) %> </li>
 <% end %>
 </ul>
 
-<button><%= link_to 'Create Blog Post', blog_new_path %></button>
+<button class = "text-glow"><%= link_to 'Create Blog Post', blog_new_path %></button>
 
