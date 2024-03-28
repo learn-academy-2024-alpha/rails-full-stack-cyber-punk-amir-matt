@@ -22,9 +22,3 @@ ActiveRecord::Schema[7.1].define(version: 2024_03_27_220521) do
   end
 
 end
-
-
-
-
-
-
