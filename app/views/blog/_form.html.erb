@@ -1,0 +1,13 @@
+<%= form_with model: @blog do |form| %>
+  <%= form.label :title, 'Enter Title Here:'  %>
+  <br/>
+  <%= form.text_field :title  %>
+  <br/>
+  <br/>
+  <%= form.label :content, 'Enter Content Here:' %>
+  <br/>
+  <%= form.text_field :content  %>
+  <br/>
+  <br/>
+  <%= form.submit %>
+<% end %>
