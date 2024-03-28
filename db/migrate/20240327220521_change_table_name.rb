@@ -3,3 +3,5 @@ class ChangeTableName < ActiveRecord::Migration[7.1]
     rename_table :blog_posts, :blogs
   end
 end
+
+
